@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <link style="text/css" rel="stylesheet" href="style.css"/> 
+  <title>留言板</title>
+ </head>
+ <body>
+	<div class="add">
+		<form action="save.php" method="get">
+			<textarea name="msg">留言内容</textarea>
+			<input type="text" name="user" class="user"/>
+			<input type="submit" class="btn" value="发表"/>
+		</form>
+	</div>
+
+	<div class="msg">
+		<div class="item">
+			<span class="user">用户名</span>
+			<span class="time">2017-7-16 21:30:00</span>
+			<p>
+			通过css来提升工作效率!在我们的css教程中,你将学会如何利用css来控制网页的样式和布局。
+			</p>
+		</div>
+
+		<div class="item">
+			<span class="user">用户名</span>
+			<span class="time">2017-7-16 21:30:00</span>
+			<p>
+			通过css来提升工作效率!在我们的css教程中,你将学会如何利用css来控制网页的样式和布局。
+			</p>
+		</div>
+
+	</div>
+ </body>
+</html>
